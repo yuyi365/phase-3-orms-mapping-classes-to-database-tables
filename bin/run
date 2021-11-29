@@ -1,7 +1,9 @@
-#!/usr/bin/env ruby 
+#!/usr/bin/env ruby
 
 require 'pry'
 require_relative '../config/environment'
 
 binding.pry
-"pls"
+'pls'
+
+Song.create_table
